@@ -1,0 +1,9 @@
+commit 96a05752f9548968f3803614a405ef9635478faa
+Author: Emmett Lalish <elalish@google.com>
+Date:   Wed Jul 22 14:01:32 2020 -0700
+
+    Fix scene-graph for Safari (#1395)
+    
+    * hacked around EventTarget
+    
+    * fixed overflow:hidden on safari
